@@ -1,6 +1,6 @@
 # 0x00. AirBnB clone - The console
 * The goal of the project is to deploy on your server a simple copy of the [AirBnB Website](https://intranet.alxswe.com/rltoken/m8g02HcD2ovrl_K-zulYBw)
-![HbnB_Image](https://th.bing.com/th/id/OIP.1PoJI57rMUlTU9H_R2Qh0QHaDI?w=280&h=147&c=7&r=0&o=5&pid=1.7)
+![HbnB_Image](https://camo.githubusercontent.com/59589bd21e8ec09ef94f2d9bb80d36d144bc487fe4737f8b213d005f3273921b/68747470733a2f2f696d6775722e636f6d2f4f696c457358562e706e67)
 ### Welcome to the AirBnB clone project!
 #### Concepts
 * [Python packages](https://intranet.alxswe.com/concepts/66)
