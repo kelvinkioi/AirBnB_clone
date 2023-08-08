@@ -1,8 +1,6 @@
 # 0x00. AirBnB clone - The console
 * The goal of the project is to deploy on your server a simple copy of the [AirBnB Website](https://intranet.alxswe.com/rltoken/m8g02HcD2ovrl_K-zulYBw)
-![hbnb_image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230808T142818Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b42f7027a14a3c65f267489649f312c73633ebd6e666fe0fb891cb3da25209ec)
-
-## Background Context
+![HbnB_Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230808%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230808T142818Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b42f7027a14a3c65f267489649f312c73633ebd6e666fe0fb891cb3da25209ec)
 ### Welcome to the AirBnB clone project!
 #### Concepts
 * [Python packages](https://intranet.alxswe.com/concepts/66)
