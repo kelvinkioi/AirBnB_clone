@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-My console which the CLI for my project
+My console which is the CLI for my project
 """
 import cmd
 
