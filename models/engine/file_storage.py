@@ -42,5 +42,15 @@ class FileStorage:
                           for key, value in loaded.items()}
             # TODO: should this overwrite or insert?
             FileStorage.__objects = loaded
-
     
+    def classes(self):
+        '''returns a dictionary mapping 
+        class names to their corresponding classes
+        '''
+        from models.base_model import BaseModel
+        from models.user import User
+
+        return {
+            "BaseModel": BaseModel,
+            "User": User,
+        }
