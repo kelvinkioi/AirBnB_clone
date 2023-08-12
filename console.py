@@ -10,15 +10,18 @@ from models.base_model import BaseModel
 
 class_p = {"BaseModel": BaseModel}
 
+
 class HBNBCommand(cmd.Cmd):
     prompt = '(hbnb)'
 
     def do_EOF(self, arg):
         '''EOF helps exit the CLI, ctrl + D'''
         return True
+
     def do_quit(self, arg):
         '''Quit command to exit the program'''
         return True
+
     def emptyline(self):
         '''Handles an empty line when entered'''
         pass
@@ -133,6 +136,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** instance id missing **")
         else:
             print("** class doesn't exist **")
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
