@@ -25,6 +25,7 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         '''Handles an empty line when entered'''
         pass
+
     def do_create(self, arg):
         """Creates a new instance of BaseModel"""
         args = shlex.split(arg)
@@ -39,6 +40,7 @@ class HBNBCommand(cmd.Cmd):
         else:
             print("** class doesn't exist **")
             return False
+
     def do_show(self, arg):
         """prints an instance as a string based on the class name and id"""
         args = shlex.split(arg)
@@ -74,7 +76,7 @@ class HBNBCommand(cmd.Cmd):
                 print("** instance id missing **")
         else:
             print("** class doesn't exist **")
-    
+
     def do_all(self, arg):
         """Prints all string representation of all instances
         based or not on the class name"""
@@ -124,7 +126,8 @@ class HBNBCommand(cmd.Cmd):
                                     if not args[3]:
                                         args[3] = 0.0
 
-                            setattr(models.storage.all()[key], args[2], args[3])
+                            setattr(models.storage.all()[key],
+                                    args[2], args[3])
                             models.storage.all()[key].save()
                         else:
                             print("** value missing **")
