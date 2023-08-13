@@ -13,6 +13,7 @@ from models.review import Review
 from models.state import State
 from models.user import User
 from models.amenity import Amenity
+from models import storage
 
 class_p = {"BaseModel": BaseModel, "Place": Place,
            "Review": Review, "State": State, "User": User,
@@ -147,6 +148,28 @@ class HBNBCommand(cmd.Cmd):
                 print("** instance id missing **")
         else:
             print("** class doesn't exist **")
+
+    def default(self, arg):
+        """
+        retrieve all instances of a class by using: <class name>.all()
+        retrieve the number of instances of a class: <class name>.count()
+        retrieve an instance based on its ID: <class name>.show(<id>)
+        destroy an instance based on his ID: <class name>.destroy(<id>)
+        """
+        args = arg.split(".")
+        if args[0] in class_p:
+            if args[1] == "all()":
+                self.do_all(args[0])
+            elif args[1] == "count()":
+                count = [n for key, n in storage.all().items()
+                         if key.startswith(args[0])]
+                print(len(count))
+            elif args[1].startswith("show"):
+                its_ID = args[1].split('"')[1]
+                self.do_show(f"{args[0]} {its_ID}")
+            elif args[1].startswith("destroy"):
+                its_ID = args[1].split('"')[1]
+                self.do_destroy(f"{args[0]} {its_ID}")
 
 
 if __name__ == '__main__':
