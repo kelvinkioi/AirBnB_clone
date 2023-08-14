@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Unittest module for the User Class."""
+"""Unittest module for the User Class.
+
+Unittest classes:
+    TestUser_instantiation
+    TestUser_save
+    TestUser_to_dict
+"""
 
 import unittest
 from models.user import User

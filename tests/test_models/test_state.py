@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Unittest module for the State Class."""
+"""Unittest module for the State Class.
+
+Unittest classes:
+    TestState_instantiation
+    TestState_save
+    TestState_to_dict
+"""
 
 import unittest
 from models.state import State
