@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Unittest module for the Review Class."""
+"""Unittest module for the Review Class.
+
+Unittest classes:
+    TestReview_instantiation
+    TestReview_save
+    TestReview_to_dict
+"""
 
 import unittest
 from models.review import Review

@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-"""Unittest module for the FileStorage class."""
+"""Unittest module for the FileStorage class.
+
+Unittest classes:
+    TestFileStorage_instantiation
+    TestFileStorage_methods
+"""
 
 import unittest
 from models.base_model import BaseModel

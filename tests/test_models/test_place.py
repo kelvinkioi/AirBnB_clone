@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Unittest module for the Place Class."""
+"""Unittest module for the Place Class.
+
+Unittest classes:
+    TestPlace_instantiation
+    TestPlace_save
+    TestPlace_to_dict
+"""
 
 import unittest
 from models.place import Place

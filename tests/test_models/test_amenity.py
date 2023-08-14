@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""Unittest module for the Amenity Class."""
+"""Unittest module for the Amenity Class.
+
+Unittest classes:
+    TestAmenity_instantiation
+    TestAmenity_save
+    TestAmenity_to_dict
+"""
 
 import unittest
 from models.amenity import Amenity
